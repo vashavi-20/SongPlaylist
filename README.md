@@ -25,7 +25,7 @@ public class Song {
     private String title;
     private double duration;
 
-    // Constructors, getters, and toString method...
+    // Constructors, getters, and toString methods..
 }
 
 package com.vashavi;
