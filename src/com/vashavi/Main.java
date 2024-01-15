@@ -43,7 +43,7 @@ public class Main {
         if(playList.size() == 0){
             System.out.println("This playlist have no song");
         }else {
-            System.out.println("Now playing " + listIterator.next().toString());
+            System.out.println("Now playing: " + listIterator.next().toString());
             printMenu();
         }
 
