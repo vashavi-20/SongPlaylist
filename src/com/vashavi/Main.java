@@ -41,7 +41,7 @@ public class Main {
         ListIterator<Song> listIterator = playList.listIterator();
 
         if(playList.size() == 0){
-            System.out.println("This playlist have no song");
+            System.out.println("This playlist does not have any song");
         }else {
             System.out.println("Now playing " + listIterator.next().toString());
             printMenu();
